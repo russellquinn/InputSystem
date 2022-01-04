@@ -1814,7 +1814,6 @@ namespace UnityEngine.InputSystem
                                     controlIndex = interactionStates[index].triggerControlIndex,
                                     bindingIndex = trigger.bindingIndex,
                                     interactionIndex = index,
-                                    mapIndex = trigger.mapIndex,
                                     time = interactionStates[index].performedTime, // Time when the interaction performed.
                                     startTime = startTime,
                                 };
